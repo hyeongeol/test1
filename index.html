@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hyeongeol</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <table width="2100" border="0">
+            <tr>
+                <td colspan="2" style="background-color: brown;">
+                    <h1 style="color: black;font-size: large;">first</h1>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: orange;width: 100px;vertical-align: top;">
+                    <input type="text" id="is_text">
+                    <input type="number" id="is_number">
+                    <input type="email">
+                    <select class="select-style1">
+                    <option >서울</option>
+                    <option >강남</option>
+                    </select>
+
+
+                    <button onclick="is_click()">enter</button>
+                </td>
+                <td style="background-color: beige;height: 200px;width: 400px;vertical-align: top;">
+                    <h1 class="coler-name font-size">my first name</h1>
+                    <h2 class="coler-name font-size">my sacend name</h2>
+                    <h3 class="coler-name font-size">hhh</h3>
+                    <p class="coler-name font-size"style="color: red;">my first porgram</p>
+                    <img width="1000px"
+                    src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA0MTBfNTEg%2FMDAxNTg2NTE2NjE5MDAw.hPWUyFxBzbl6j0ZZcISb8siKDw6BNkVnw8KVRMC8fN8g.X0PLCDVniRZ9unYOUFyPCePJMKN6UJIhG5nKCjgr5RAg.JPEG.siblinghhye_%2Foutput_2723002133.jpg&type=sc960_832" alt="">
+                    
+                </td>
+            </tr> 
+            <tr>
+                <td colspan="2" style="background-color: rgb(0, 183, 255);text-align: center;">
+                00030003201</td>
+            </tr>
+        </table>
+        <script>
+            
+            function is_click(){
+
+                var isText = document.getElementById("is_text").value;
+                var isNumber = document.getElementById("is_number").value;
+                if(isText != ""){
+                    alert(isText);
+                }
+
+                if(isNumber != ""){
+                    alert(isNumber);
+                }
+            }
+        </script>
+        
+
+
+
+
+
+        
+</body>
+</html>
